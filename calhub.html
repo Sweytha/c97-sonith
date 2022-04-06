@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<title>Calculator</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="calhub.js"></script>
+</head>
+<body>
+
+<center>
+	<h1 class="header">	
+		Calculator	<sup>
+	</sup>
+</h1>
+<h3>Welcome to Calculator, Select a mode to continue </h3>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 cal_div">
+		<br>
+		<br>
+		<span>
+			<button id="toAdd"  onclick="toadd()" class="btn btn-primary">Addition </button>
+			<button id="toSub" onclick="tosub()" class="btn btn-danger">Subtract</button>
+		</span>
+		<span>
+			<button id="toMulti" onclick="tomulti()" class="btn btn-info">Multiply</button>
+			<button id="toDiv" onclick="todiv()" class="btn btn-warning">Divide</button>
+            <button id="toHome" onclick="tohome()" class="btn btn-success">Home</button>
+		</span>
+		<br>
+		<br>
+		<br>
+	</div>
+</center>
+</body>
+</html>

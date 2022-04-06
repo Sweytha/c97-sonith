@@ -1,0 +1,76 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #33f1b2, #25d9f9, #1882c1, #0a4faa, #160094);
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+        
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+.cal_div
+{
+	background-image: linear-gradient(to right top, #eb1111, #f05912, #cf8c0f, #aa770a, #bfc200);float: none;border-radius: 15px;
+}
+.home_div
+{
+	background-image: linear-gradient(to right bottom, #11e4eb, #1297f0, #2c0fcf, #8400ff, #ff06de);float: none;border-radius: 15px;
+}
+#Messages{
+	padding: 10px; width:80%;background-image: linear-gradient(to right bottom, #11a6eb, #12f0cb, #0fcf5f, #73ff00, #eeff06);float: none;border-radius: 15px;border-radius: 15px;
+}
+.input_div_room_page
+{
+	width: 80%;
+}
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+.user_tick
+{
+	width:20px;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+#homescr
+{
+background-color: turquoise;
+border-radius: 5.5px;
+border-width: 0px;
+}
+#clearscr
+{
+background-color: rgb(10, 250, 62) ;
+border-radius: 5.5px;
+border-width: 0px;
+
+}
